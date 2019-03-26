@@ -18,7 +18,7 @@ fi
 
 if [ "$1" == "-h" -o "$1" ==  "--help" ]; then #help
     echo -e "${CBOLD}Usage:${CEND}\n"
-    echo "comp [file] [options]\n"
+    echo -e "comp [file] [options]\n"
     echo -e "${CITALIC}The options are passed to g++ compiler!${CEND}"
     exit
 
